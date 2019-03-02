@@ -1,0 +1,19 @@
+<ion-view>
+	<link rel="stylesheet" href="../css/style.css">
+	<ion-content class="fondo">
+		<form>
+	       	<h1 class="styh1">Registrate en S-TEEK</h1>
+	       	<legend><span class="number">1</span>Your Information</legend>
+	        <label for="name">Name:</label>
+			<input type="text" id="name" name="user_name" ng-model="user.name">
+	         
+			<label for="mail">Email:</label>
+			<input type="email" id="mail" name="user_email" ng-model="user.email">
+	         
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="user_password" ng-model="user.password">
+	         
+			<button class="button" ng-click="fun(user)">Sign Up</button>
+     </form>
+	</ion-content>
+</ion-view>
